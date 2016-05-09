@@ -3,6 +3,8 @@ package nearsoft.collections.list;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.HashMap;
+
 /**
  * Created by laguilar on 5/2/16.
  */
@@ -19,6 +21,15 @@ public class DoubleLinkedListTest {
         Assert.assertEquals(cero, linkedList.get(0));
     }
 
+
+    @Test
+    public void addeOperationTest(){
+
+        HashMap<String,String> map = new HashMap<String, String>();
+        map.put("","");
+
+
+    }
     @Test
     public void getOperationTest(){
 
