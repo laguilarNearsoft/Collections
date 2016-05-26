@@ -16,6 +16,12 @@
             <version>4.11</version>
         </dependency>
 
+        <dependency>
+            <groupId>pl.pragmatists</groupId>
+            <artifactId>JUnitParams</artifactId>
+            <version>0.3.6</version>
+        </dependency>
+
     </dependencies>
 
 

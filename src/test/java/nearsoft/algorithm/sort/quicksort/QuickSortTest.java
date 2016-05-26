@@ -3,11 +3,7 @@ package nearsoft.algorithm.sort.quicksort;
 import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Created by laguilar on 5/8/16.
- */
 public class QuickSortTest {
-
 
     @Test
     public void sortTest(){
@@ -22,6 +18,4 @@ public class QuickSortTest {
             Assert.assertTrue( numbersSorted[i] == numbersToSort[i] );
         }
     }
-
-
 }
